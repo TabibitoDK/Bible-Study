@@ -1,0 +1,97 @@
+{
+  "version": "NIV",
+  "source": "bible-niv.txt",
+  "sha256": "8a5cef55342015abd443e51cbedf6db760e6a753f4cc30aaf09602274ad333b4",
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31086,
+  "attribution": "New International Version. NIV text supplied by the user; copyright Biblica, Inc.",
+  "edition": "Edition year is not identified in the supplied file.",
+  "normalization": "Whitespace trimmed; seven combined source lines split at reviewed verse boundaries. Source text preserved verbatim apart from whitespace. No scripture text added.",
+  "omittedReferences": {
+    "Matthew": [
+      "17:21",
+      "18:11",
+      "23:14"
+    ],
+    "Mark": [
+      "7:16",
+      "9:44",
+      "9:46",
+      "11:26",
+      "15:28"
+    ],
+    "Luke": [
+      "17:36",
+      "23:17"
+    ],
+    "John": [
+      "5:4"
+    ],
+    "Acts": [
+      "8:37",
+      "15:34",
+      "24:7",
+      "28:29"
+    ],
+    "Romans": [
+      "16:24"
+    ]
+  },
+  "splitReferences": {
+    "Exodus": [
+      {
+        "start": "30:23",
+        "splits": [
+          "500 shekels of cassia"
+        ]
+      }
+    ],
+    "Numbers": [
+      {
+        "start": "31:32",
+        "splits": [
+          "72,000 cattle",
+          "61,000 donkeys"
+        ]
+      },
+      {
+        "start": "31:37",
+        "splits": [
+          "36,000 cattle",
+          "30,500 donkeys",
+          "16,000 people"
+        ]
+      },
+      {
+        "start": "31:43",
+        "splits": [
+          "36,000 cattle",
+          "30,500 donkeys"
+        ]
+      }
+    ],
+    "Ezra": [
+      {
+        "start": "2:66",
+        "splits": [
+          "435 camels"
+        ]
+      },
+      {
+        "start": "8:26",
+        "splits": [
+          "20 bowls of gold"
+        ]
+      }
+    ],
+    "Nehemiah": [
+      {
+        "start": "7:68",
+        "splits": [
+          "435 camels"
+        ]
+      }
+    ]
+  }
+}

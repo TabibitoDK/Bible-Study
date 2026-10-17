@@ -1,0 +1,31 @@
+{
+  "version": "JPKJV",
+  "source": "https://raw.githubusercontent.com/FujiHaruka/bible-api/master/mysql/sql/create-table.sql.tar.gz",
+  "downloadedAt": "2026-10-17T12:57:37.168Z",
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31087,
+  "attribution": "Japanese Colloquial Bible (口語訳), 1954/1955.",
+  "normalization": "Provider HTML converted to plain text; pronunciation annotations and commentary omitted. Original numbered verse text retained.",
+  "numbering": "Source chapter and verse numbering retained.",
+  "combinedVerses": [
+    "1Chr.16.12 16.13",
+    "Exod.22.3a",
+    "Isa.4.3 4.4",
+    "Num.15.4 15.5",
+    "Prov.26.18 26.19",
+    "Ps.105.5 105.6",
+    "Ps.106.21 106.22",
+    "Ps.132.3 132.4 132.5",
+    "Ps.49.8 49.9",
+    "Ps.58.4 58.5",
+    "Ps.63.5 63.6",
+    "Ps.65.2 65.3",
+    "Ps.76.8 76.9",
+    "Ps.89.50 89.51",
+    "Rom.1.9 1.10",
+    "Rom.16.25 16.26",
+    "Rom.2.19 2.20"
+  ],
+  "combinedVerseHandling": "Source groups spanning several verses are stored once at the first numbered verse; lettered parts of one verse are joined in source order. No scripture text is omitted or duplicated."
+}

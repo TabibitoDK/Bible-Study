@@ -1,0 +1,13 @@
+{
+  "version": "NKJV",
+  "source": "https://bolls.life/static/translations/NKJV.json",
+  "downloadedAt": "2026-10-17T12:57:33.226Z",
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31102,
+  "attribution": "New King James Version © 1982 Thomas Nelson.",
+  "normalization": "Provider HTML converted to plain text; pronunciation annotations and commentary omitted. Original numbered verse text retained.",
+  "numbering": "Source chapter and verse numbering retained.",
+  "combinedVerses": [],
+  "combinedVerseHandling": "Source groups spanning several verses are stored once at the first numbered verse; lettered parts of one verse are joined in source order. No scripture text is omitted or duplicated."
+}

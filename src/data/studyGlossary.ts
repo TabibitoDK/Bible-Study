@@ -1,0 +1,62 @@
+export interface StudyMeaning { terms: string[]; meaning: string; reference?: string }
+
+// Plain-language study aids. Scripture references supply the context for each sense.
+export const STUDY_GLOSSARY: StudyMeaning[] = [
+  { terms: ['Abib', 'Aviv', 'アビブ'], meaning: 'The first month of the ancient Israelite religious calendar, around March–April. It is the spring month associated with the departure from Egypt and Passover.', reference: 'Exodus 12:2; 13:4; Deuteronomy 16:1' },
+  { terms: ['land flowing with milk and honey', 'flowing with milk and honey', 'milk and honey'], meaning: 'A picture of a fertile land with abundant food and good pasture. The phrase describes the goodness of the promised land, rather than literal rivers of milk and honey.', reference: 'Exodus 3:8; Numbers 13:27' },
+  { terms: ['promised land'], meaning: 'The land God promised to Abraham and his descendants, commonly identified with Canaan.', reference: 'Genesis 12:7; 15:18' },
+  { terms: ['hardened heart', 'harden his heart', 'harden your hearts', 'hardness of heart'], meaning: 'A stubborn refusal to listen, respond, or change. In the Exodus story it describes resistance to God’s command.', reference: 'Exodus 8:15; Psalm 95:8' },
+  { terms: ['fear of the Lord', 'fear the Lord'], meaning: 'Reverence and awe toward God, expressed in trust and obedience. The phrase is broader than simply being frightened.', reference: 'Proverbs 1:7; Deuteronomy 10:12' },
+  { terms: ['born again'], meaning: 'Receiving a new spiritual beginning through God’s Spirit. John’s account connects this new birth with entering God’s kingdom.', reference: 'John 3:3–8' },
+  { terms: ['kingdom of God', 'kingdom of heaven'], meaning: 'God’s rule and reign, including the life and community shaped by that rule. It is more than a geographical kingdom.', reference: 'Mark 1:15; Matthew 6:10' },
+  { terms: ['image of God', 'in our image', 'in his own image'], meaning: 'Language describing the special dignity and calling God gives human beings to represent him and care for his creation.', reference: 'Genesis 1:26–28' },
+  { terms: ['in the beginning', 'はじめに'], meaning: 'At the start. Genesis uses this opening to introduce God’s creation of the world.', reference: 'Genesis 1:1' },
+  { terms: ['heavens and the earth', 'heaven and the earth', '天と地'], meaning: 'An expression encompassing the whole created world: sky and earth together.', reference: 'Genesis 1:1; 2:1' },
+  { terms: ['without form and void', 'without form, and void', 'formless and empty'], meaning: 'Not yet ordered or filled. Genesis describes the earth before the following acts of creation give it form and inhabitants.', reference: 'Genesis 1:2–31' },
+  { terms: ['let there be light', '光あれ'], meaning: 'God’s command that light come into existence in the creation account.', reference: 'Genesis 1:3' },
+  { terms: ['an eye for an eye', 'eye for eye'], meaning: 'A legal principle of proportionate justice: the penalty should correspond to the injury.', reference: 'Exodus 21:23–25' },
+  { terms: ['turn the other cheek'], meaning: 'Jesus’ teaching against answering personal insult with retaliation.', reference: 'Matthew 5:38–39' },
+  { terms: ['daily bread'], meaning: 'The everyday provision needed to live. In the Lord’s Prayer it expresses dependence on God.', reference: 'Matthew 6:11' },
+  { terms: ['good shepherd'], meaning: 'A caring protector and guide. Jesus uses this image for his care for his people.', reference: 'John 10:11–15' },
+  { terms: ['bread of life'], meaning: 'Jesus’ image of himself as the source of spiritual life and lasting nourishment.', reference: 'John 6:35' },
+  { terms: ['living water'], meaning: 'Life-giving water; in John’s Gospel Jesus uses the image for the life God gives through the Spirit.', reference: 'John 4:10–14; 7:37–39' },
+  { terms: ['covenant', '契約'], meaning: 'A solemn commitment or relationship established with promises and responsibilities.', reference: 'Genesis 17:7; Exodus 19:5' },
+  { terms: ['grace', '恵み'], meaning: 'Undeserved favor or a freely given gift. In many New Testament passages it describes God’s generous kindness.', reference: 'Ephesians 2:8–9' },
+  { terms: ['mercy', 'あわれみ'], meaning: 'Compassion shown to someone in need or to someone who could be punished.', reference: 'Luke 10:36–37' },
+  { terms: ['faith', '信仰'], meaning: 'Trust, confidence, or reliance. Biblical faith commonly means trusting God and responding to him.', reference: 'Hebrews 11:1; Romans 4:20–21' },
+  { terms: ['righteousness', 'righteous'], meaning: 'Being or doing what is right and just. The precise sense may concern conduct, justice, or a person’s standing before God.', reference: 'Genesis 15:6; Micah 6:8' },
+  { terms: ['holy', 'holiness', '聖なる'], meaning: 'Set apart for God; also describing God’s distinctness and moral purity.', reference: 'Leviticus 19:2' },
+  { terms: ['repent', 'repentance'], meaning: 'To turn away from wrongdoing and change one’s direction toward God.', reference: 'Acts 3:19' },
+  { terms: ['redeem', 'redemption'], meaning: 'To release or recover someone, often pictured as rescue from slavery or payment of a price.', reference: 'Exodus 6:6; Ephesians 1:7' },
+  { terms: ['salvation', '救い'], meaning: 'Rescue or deliverance. Depending on the passage, this may concern danger, oppression, sin, or death.', reference: 'Exodus 14:13; Romans 10:9' },
+  { terms: ['atonement'], meaning: 'The dealing with sin that restores a damaged relationship with God.', reference: 'Leviticus 16:30' },
+  { terms: ['sin', '罪'], meaning: 'Wrongdoing or failure to live according to God’s will.', reference: 'Romans 3:23' },
+  { terms: ['firstborn', 'first-born', '長子'], meaning: 'The first child born. In biblical families the term often carries inheritance or leadership significance; some passages use it as a title of honor.', reference: 'Exodus 13:2; Colossians 1:15–18' },
+  { terms: ['Passover', '過越'], meaning: 'The festival remembering Israel’s deliverance from Egypt, connected with the passing over of Israelite homes during the final plague.', reference: 'Exodus 12:11–14' },
+  { terms: ['unleavened', 'unleavened bread'], meaning: 'Made without yeast or another raising agent. In Exodus it is associated with leaving Egypt in haste.', reference: 'Exodus 12:39' },
+  { terms: ['Sabbath', '安息日'], meaning: 'The weekly day set apart for rest and worship.', reference: 'Exodus 20:8–11' },
+  { terms: ['tabernacle', '幕屋'], meaning: 'The portable sanctuary used by the Israelites, a place associated with God’s presence among them.', reference: 'Exodus 25:8–9' },
+  { terms: ['manna', 'マナ'], meaning: 'The food provided for the Israelites during their wilderness journey.', reference: 'Exodus 16:14–15' },
+  { terms: ['Messiah', 'Christ', 'キリスト'], meaning: '“Anointed one.” Messiah comes from Hebrew and Christ from Greek; Christians apply this title to Jesus.', reference: 'John 1:41' },
+  { terms: ['Pharaoh', 'パロ'], meaning: 'The title used for the rulers of ancient Egypt.', reference: 'Exodus 1:8–11' },
+  { terms: ['firmament', 'expanse'], meaning: 'The sky or broad space above the earth. Genesis uses it in the account of the separation of the waters.', reference: 'Genesis 1:6–8' },
+  { terms: ['behold'], meaning: 'Look! Pay attention to what follows.' },
+  { terms: ['thou', 'thee'], meaning: 'An older English form of “you,” addressing one person.' },
+  { terms: ['thy', 'thine'], meaning: 'An older English form of “your” or “yours.”' },
+  { terms: ['ye'], meaning: 'An older English form of “you,” usually addressing more than one person.' },
+  { terms: ['unto'], meaning: 'An older English word meaning “to” or “toward.”' },
+  { terms: ['hath'], meaning: 'An older English form of “has.”' },
+  { terms: ['doth'], meaning: 'An older English form of “does.”' },
+  { terms: ['verily'], meaning: 'Truly; certainly. It introduces a statement with emphasis.' },
+  { terms: ['wherefore'], meaning: 'Usually “therefore” or “for that reason”; in some older uses, “why.” The sentence determines the sense.' },
+  { terms: ['begat', 'begotten'], meaning: '“Begat” means “became the father of.” “Begotten” means born or fathered; some passages use the language figuratively.' },
+  { terms: ['meek'], meaning: 'Gentle and humble; not driven by pride or aggression.' },
+  { terms: ['charity'], meaning: 'In many KJV New Testament passages, “love,” especially self-giving care for others.', reference: '1 Corinthians 13:1–13' },
+  { terms: ['God', '神'], meaning: 'In the Bible, the creator and sustainer of life, the one whom Israel and the Christian community worship.', reference: 'Genesis 1:1' },
+];
+
+export const normalizeTerm = (value: string) => value.toLocaleLowerCase().replace(/[“”"‘’.,;:!?()[\]]/g, '').replace(/\s+/g, ' ').trim();
+export function glossaryMeaning(value: string): StudyMeaning | undefined {
+  const normalized = normalizeTerm(value);
+  return STUDY_GLOSSARY.find((entry) => entry.terms.some((term) => normalizeTerm(term) === normalized || normalizeTerm(term) === normalized.replace(/^(?:a|the) /, '')));
+}
